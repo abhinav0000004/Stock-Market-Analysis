@@ -61,7 +61,7 @@ After training and testing various models on stock market data, the following re
      - **Mean Absolute Error (MAE)**: [0.743,5.313,0/038]
    - **Visualization**: Below is the comparison between the actual stock prices and the ARIMA model's predicted prices.
 
-   ![ARIMA Results](results/arima_aapl.png)
+   ![ARIMA Results_aapl](results/arima_aapl.png) ![ARIMA Results_tsla](results/arima_aapl.png) ![ARIMA Results_gmbl](results/arima_aapl.png)
 
 ### 2. **LSTM Model**
    - **Stock**: [AAPL, TSLA, GMBL]
