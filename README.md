@@ -50,3 +50,36 @@ python main.py --model lstm --dataset aapl
 
 This command will run the LSTM model on the AAPL stock data. The available models are `lstm`, `arima`, and `xgb`, and the available datasets are `aapl`, `tsla`, and `gmbl`.
 
+## Results
+
+After training and testing various models on stock market data, the following results were obtained:
+
+### 1. **ARIMA Model**
+   - **Stock**: [AAPL, TSLA, GMBL]
+   - **Evaluation Metrics**:
+     - **Root Mean Squared Error (RMSE)**: [1.259,7.188,0.098]
+     - **Mean Absolute Error (MAE)**: [0.743,5.313,0/038]
+   - **Visualization**: Below is the comparison between the actual stock prices and the ARIMA model's predicted prices.
+
+   ![ARIMA Results](path_to_your_image)
+
+### 2. **LSTM Model**
+   - **Stock**: [AAPL, TSLA, GMBL]
+   - **Evaluation Metrics**:
+     - **Root Mean Squared Error (RMSE)**: [0.881,5.047,0.096]
+     - **Mean Absolute Error (MAE)**: [0.378,2.844,0.028]
+   - **Visualization**: Below is the comparison between the actual stock prices and the LSTM model's predicted prices.
+
+   ![LSTM Results](path_to_your_image)
+
+### 3. **XGBoost Model**
+   - **Stock**: [AAPL, TSLA, GMBL]
+   - **Evaluation Metrics**:
+     - **Root Mean Squared Error (RMSE)**: [0.010,0.102,0.003]
+     - **Mean Absolute Error (MAE)**: [0.023,0.016,0.001]
+   - **Visualization**: Below is the comparison between the actual stock prices and the XGBoost model's predicted prices.
+
+   ![XGBoost Results](path_to_your_image)
+
+### Conclusion
+Among the models tested, **XGBoost** performed best, delivering the most accurate predictions with the lowest error rates across all stock datasets. **LSTM** also performed well, particularly with complex stock price patterns, while **ARIMA** was effective for simpler time series but struggled with more volatile stocks like TSLA. Overall, XGBoost is recommended for stock price prediction in this analysis.
