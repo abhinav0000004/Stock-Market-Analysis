@@ -1,0 +1,14 @@
+keras==2.11.0
+keras-tuner==1.2.0
+pandas==1.5.2
+Pillow==9.4.0
+plotly==5.13.0
+ply==3.11
+pmdarima==2.0.2
+scikit-learn==1.2.0
+scipy==1.10.0
+statsmodels==0.13.5
+tensorflow==2.11.0
+tqdm==4.64.1
+xgboost==1.7.3
+yapf==0.32.0
