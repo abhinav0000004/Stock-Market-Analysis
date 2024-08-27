@@ -88,9 +88,9 @@ After training and testing various models on stock market data, the following re
    - **Visualization**: Below is the comparison between the actual stock prices and the XGBoost model's predicted prices.
 
   <p align="center">
-     <img src="results/xgb_aapl.png" alt="XGB Results AAPL" width="300"/>
-     <img src="results/xgb_tsla.png" alt="XGB Results TSLA" width="300"/>
-     <img src="results/xgb_gmbl.png" alt="XGB Results GMBL" width="300"/>
+     <img src="results/xbg_aapl.png" alt="XBG Results AAPL" width="300"/>
+     <img src="results/xbg_tsla.png" alt="XBG Results TSLA" width="300"/>
+     <img src="results/xbg_gmbl.png" alt="XBG Results GMBL" width="300"/>
    </p>
 
 ### Conclusion
