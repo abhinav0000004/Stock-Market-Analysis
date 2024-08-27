@@ -74,7 +74,11 @@ After training and testing various models on stock market data, the following re
      - **Mean Absolute Error (MAE)**: [0.378,2.844,0.028]
    - **Visualization**: Below is the comparison between the actual stock prices and the LSTM model's predicted prices.
 
-   ![LSTM Results](path_to_your_image)
+ <p align="center">
+     <img src="results/lstm_aapl.png" alt="LSTM Results AAPL" width="300"/>
+     <img src="results/lstm_tsla.png" alt="LSTM Results TSLA" width="300"/>
+     <img src="results/lstm_gmbl.png" alt="LSTM Results GMBL" width="300"/>
+   </p>
 
 ### 3. **XGBoost Model**
    - **Stock**: [AAPL, TSLA, GMBL]
@@ -83,7 +87,11 @@ After training and testing various models on stock market data, the following re
      - **Mean Absolute Error (MAE)**: [0.023,0.016,0.001]
    - **Visualization**: Below is the comparison between the actual stock prices and the XGBoost model's predicted prices.
 
-   ![XGBoost Results](path_to_your_image)
+  <p align="center">
+     <img src="results/xgb_aapl.png" alt="XGB Results AAPL" width="300"/>
+     <img src="results/xgb_tsla.png" alt="XGB Results TSLA" width="300"/>
+     <img src="results/xgb_gmbl.png" alt="XGB Results GMBL" width="300"/>
+   </p>
 
 ### Conclusion
 Among the models tested, **XGBoost** performed best, delivering the most accurate predictions with the lowest error rates across all stock datasets. **LSTM** also performed well, particularly with complex stock price patterns, while **ARIMA** was effective for simpler time series but struggled with more volatile stocks like TSLA. Overall, XGBoost is recommended for stock price prediction in this analysis.
