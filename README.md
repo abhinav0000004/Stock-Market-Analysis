@@ -63,8 +63,8 @@ After training and testing various models on stock market data, the following re
 
  <p align="center">
      <img src="results/arima_aapl.png" alt="ARIMA Results AAPL" width="300"/>
+      <img src="results/arima_gmbl.png" alt="ARIMA Results GMBL" width="300"/>
      <img src="results/arima_tsla.png" alt="ARIMA Results TSLA" width="300"/>
-     <img src="results/arima_gmbl.png" alt="ARIMA Results GMBL" width="300"/>
    </p>
    
 ### 2. **LSTM Model**
@@ -76,8 +76,8 @@ After training and testing various models on stock market data, the following re
 
  <p align="center">
      <img src="results/lstm_aapl.png" alt="LSTM Results AAPL" width="300"/>
-     <img src="results/lstm_tsla.png" alt="LSTM Results TSLA" width="300"/>
      <img src="results/lstm_gmbl.png" alt="LSTM Results GMBL" width="300"/>
+   <img src="results/lstm_tsla.png" alt="LSTM Results TSLA" width="300"/>
    </p>
 
 ### 3. **XGBoost Model**
@@ -89,8 +89,8 @@ After training and testing various models on stock market data, the following re
 
   <p align="center">
      <img src="results/xbg_aapl.png" alt="XBG Results AAPL" width="300"/>
-     <img src="results/xbg_tsla.png" alt="XBG Results TSLA" width="300"/>
      <img src="results/xbg_gmbl.png" alt="XBG Results GMBL" width="300"/>
+         <img src="results/xbg_tsla.png" alt="XBG Results TSLA" width="300"/>
    </p>
 
 ### Conclusion
